@@ -1,3 +1,3 @@
 # HTTPRequests
 
-<img src="static/images/http_request_view.jpg">
+<img src="static/images/http_request_view.JPG">
