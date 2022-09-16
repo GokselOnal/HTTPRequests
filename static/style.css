@@ -1,0 +1,105 @@
+body * {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, #44A08D, #0c4748, #093637);
+}
+
+.header {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    color: #093637;
+}
+
+.center {
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    align-items: center;
+    border: 1px solid #093637;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 68px -17px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 68px -17px rgba(255,255,255,1);
+box-shadow: 0px 0px 68px -17px rgba(255,255,255,1);
+
+}
+
+.area {
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.custom-select {
+    display: flex;
+}
+
+.select {
+    align-items: center;
+    display: flex;
+    padding: 8px 12px;
+    color: black;
+    background-color: #2b55525d;
+    border: 2px solid #0936371b;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.select:focus,
+.select:hover {
+    outline: none;
+    border: 2px solid #44A08D;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 24px -14px #164D59;
+-moz-box-shadow: 0px 0px 24px -14px #164D59;
+box-shadow: 0px 0px 24px -14px #164D59;
+}
+
+.select option {
+    background-color: white;
+}
+
+.url {
+    padding: 9px 20px;
+    align-items: center;
+    border: 2px solid #0936371b;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #5d787709
+}
+
+.send {
+    padding: 9px 13px;
+    align-items: center;
+    background-color: #0c4647c1;
+    border: 2px solid #0936371b;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.send:hover {
+    background-color: #0c474888;
+    border: 2px solid #44A08D;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 0px 24px -12px #164D59;
+-moz-box-shadow: 0px 0px 24px -12px #164D59;
+box-shadow: 0px 0px 24px -12px #164D59;
+}
+
+.text-area {
+    padding: 9px 13px;
+    align-items: center;
+    border: 2px solid #0936371b;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #5d787709;
+}
